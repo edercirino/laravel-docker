@@ -1,5 +1,12 @@
 # Como criar um ambiente de desenvolvimento laravel utilizando docker
 
+Partindo do princípio que em sua máquina tem instalado:
+
+* git
+* docker
+* docker-compose
+
+
 1. rodar comando 
         `git clone https://github.com/laravel/laravel.git <nome da aplicação>`
 
