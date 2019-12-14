@@ -36,15 +36,22 @@
 14. Fazer as alterações no banco de dados
 
     show databases;
+
     GRANT ALL PRIVILEGES ON <nome do banco>.* TO '<mesmo nome do usuario no .env>'@'%' IDENTIFIED BY <mesma senha do .env>
+
     flush privileges;
+
     exit;
 
 15. Rodar as migrations (subir o banco)
         `docker-composer exec app php artisan migrate` 
 
 16. Alterar configurações do PHP
+
     Criar na raiz do projeto uma pasta chamada php e criar um arquivo chamado local.ini
+
     alterar no arquivo docker-compose.yml e na  parte de app: incluir a linha
+
     - ./php/local.ini:/usr/local/etc/php/conf.d/local.ini
+
     Após isso rodar o comando docker-compose up -d
