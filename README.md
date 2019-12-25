@@ -42,7 +42,7 @@ Partindo do princípio que em sua máquina tem instalado:
 14. Rodar as migrations (subir o banco)
         `docker-composer exec app php artisan migrate` 
 
-16. Alterar configurações do PHP
+16. **(opcional)** Alterar configurações do PHP
 
     * Criar na raiz do projeto uma pasta chamada php e criar um arquivo chamado local.ini
     * alterar no arquivo docker-compose.yml e na  parte de app: incluir a linha
