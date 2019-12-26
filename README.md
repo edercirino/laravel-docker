@@ -26,7 +26,7 @@ Partindo do princípio que em sua máquina tem instalado:
 
 8. editar o arquivo .env com as mesmas configurações de banco de dados do docker-compose.yml
 
-9. Obs: Todo comando php artisan a ser executado deve ser executado seguido de `docker-compose exec <comando>`
+9. Obs: Todo comando php artisan a ser executado deve ser executado da seguinte maneira `docker-compose exec <comando>`
 
 10. gerar chave do arquivo .env com o comando
         `docker-compose exec app  php artisan key:generate`
