@@ -34,12 +34,14 @@ Partindo do princípio que em sua máquina tem instalado:
 11. limpar a cache do projeto
         `docker-compose exec app php artisan config:cache`
 
-12. Subir os containers do ambiente
+12. Acessar a aplicação no navegador digitando localhost:80
+
+13. Subir os containers do ambiente
         `docker-compose up -d`
 
-13. Para gerenciar o banco de dados, abra o navegador e acessar o phpmyadmin através da url localhost:8080
+14. Para gerenciar o banco de dados, abra o navegador e acessar o phpmyadmin através da url localhost:8080
 
-14. Rodar as migrations (subir o banco)
+15. Rodar as migrations (subir o banco)
         `docker-composer exec app php artisan migrate` 
 
 16. **(opcional)** Alterar configurações do PHP
