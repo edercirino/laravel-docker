@@ -19,7 +19,7 @@ Partindo do princípio que em sua máquina tem instalado:
 
 5. copiar o arquivo app.conf para dentro do diretório Raiz_do_Projeto/nginx/conf.d
 
-6. rodar o comando `docker-compose up -d` 
+6. Suba os containers com o comando `docker-compose up -d` 
 
 7. copiar o arquivo .env-exemple para .env com o comando 
         `cp .env-exemple .env`
