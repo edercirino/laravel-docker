@@ -36,15 +36,13 @@ Partindo do princípio que em sua máquina tem instalado:
 
 12. Acessar a aplicação no navegador digitando localhost:80
 
-13. Subir os containers do ambiente
-        `docker-compose up -d`
 
-14. Para gerenciar o banco de dados, abra o navegador e acessar o phpmyadmin através da url localhost:8080
+13. Para gerenciar o banco de dados, abra o navegador e acessar o phpmyadmin através da url localhost:8080
 
-15. Rodar as migrations (subir o banco)
+14. Rodar as migrations (subir o banco)
         `docker-composer exec app php artisan migrate` 
 
-16. **(opcional)** Alterar configurações do PHP
+15. **(opcional)** Alterar configurações do PHP
 
     * Criar na raiz do projeto uma pasta chamada php e criar um arquivo chamado local.ini
     * alterar no arquivo docker-compose.yml e na  parte de app: incluir a linha
