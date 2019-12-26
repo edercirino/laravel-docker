@@ -36,7 +36,6 @@ Partindo do princípio que em sua máquina tem instalado:
 
 12. Acessar a aplicação no navegador digitando localhost:80
 
-
 13. Para gerenciar o banco de dados, abra o navegador e acessar o phpmyadmin através da url localhost:8080
 
 14. Rodar as migrations (subir o banco)
